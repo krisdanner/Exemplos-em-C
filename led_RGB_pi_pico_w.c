@@ -22,7 +22,7 @@ void turn_off_leds() {
 
 // Função para acender uma combinação específica de LEDs
 void set_color(bool red, bool green, bool blue) {
-    gpio_put(RED_PIN, red);
+    gpio_put(RED_PIN, red); 
     gpio_put(GREEN_PIN, green);
     gpio_put(BLUE_PIN, blue);
 }
